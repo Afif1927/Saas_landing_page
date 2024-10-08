@@ -22,7 +22,7 @@ const CallToAction = () => {
            <Image 
              src={helixImage}
              alt='' 
-             className='absolute hidden sm:block top-6 left-[calc(100%+36px)]'/>
+             className='absolute top-6 left-[calc(100%+36px)]'/>
            </motion.div>
            <motion.div style={{translateY}}>
            <Image 
