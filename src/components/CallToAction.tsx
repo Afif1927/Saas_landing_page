@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect, useRef } from 'react'
+import React, { useRef } from 'react'
 import helixImage from '../assets/images/helix2.png'
 import emojiStar from '../assets/images/emojistar.png'
 import Image from 'next/image'
