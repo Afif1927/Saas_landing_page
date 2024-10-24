@@ -35,7 +35,7 @@ const CallToAction = () => {
          <form className='mt-8 flex flex-col gap-2.5 max-w-sm mx-auto sm:flex-row'>
             <input 
             type='email' 
-            placeholder='afifarfan808@gmail.com'
+            placeholder='enter your gmail'
             className='h-12 bg-white/20 px-5 rounded-lg font-medium sm:flex-1'
             />
             <button className='h-12 bg-white text-black font-bold px-5 rounded-lg'>Get access</button>
