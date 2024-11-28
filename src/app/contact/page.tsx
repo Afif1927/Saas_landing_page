@@ -84,10 +84,11 @@ const ContactPage = () => {
                   <textarea
                     name='message'
                     placeholder='Your Message'
-                    rows='6'
+                    rows={6} // Change from '6' (string) to 6 (number)
                     required
                     className='p-4 text-black rounded-lg focus:outline-none'
                   ></textarea>
+
                   <button
                     type='submit'
                     className='bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition duration-300'
