@@ -4,6 +4,8 @@ import Navbar from "@/components/Navbar";
 import { IoLocationOutline } from "react-icons/io5";
 import { CiMobile3 } from "react-icons/ci";
 import { TfiEmail } from "react-icons/tfi";
+import TheImage from "@/assets/images/update.png";
+import Image from "next/image";
 
 const Page = () => {
   return (
@@ -14,6 +16,13 @@ const Page = () => {
         <h1 className='text-5xl font-extrabold mb-6 text-center'>
           COMING SOON
         </h1>
+        <Image
+          src={TheImage}
+          alt='update image'
+          width={500}
+          height={500}
+          className='mb-6'
+        />
         {/* Description */}
         <p className='text-gray-300 text-lg leading-relaxed text-center max-w-3xl mb-8'>
           Lorem ipsum dolor sit, amet consectetur

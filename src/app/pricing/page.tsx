@@ -26,7 +26,7 @@ const Pricing = () => {
         <section className='container mx-auto px-6 py-12'>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
             {/* Free Plan */}
-            <div className='bg-gray-800 text-white shadow-lg border border-gray-700 rounded-lg overflow-hidden'>
+            <div className='bg-gray-800 text-white shadow-lg border border-gray-700 rounded-lg'>
               {/* Header */}
               <div className='flex justify-center bg-gray-700 py-2'>
                 <span className='text-sm font-medium text-gray-300'>
@@ -111,7 +111,7 @@ const Pricing = () => {
               {/* Header */}
               <div className='flex justify-center bg-gray-700 py-2'>
                 <span className='text-sm font-medium text-gray-300'>
-                  😍 Most Powerful
+                  ⭐️ Most Powerful
                 </span>
               </div>
 
@@ -122,7 +122,7 @@ const Pricing = () => {
                 </h2>
                 <p className='text-gray-400 text-sm'>
                   Advanced features for power
-                  users and businesses
+                  users and businesses goals
                 </p>
               </div>
 
@@ -183,7 +183,7 @@ const Pricing = () => {
               {/* Header */}
               <div className='flex justify-center bg-gray-700 py-2'>
                 <span className='text-sm font-medium text-gray-300'>
-                  😍 Most Popular
+                  💪 Most Popular
                 </span>
               </div>
 
@@ -194,7 +194,7 @@ const Pricing = () => {
                 </h2>
                 <p className='text-gray-400 text-sm'>
                   Fully customizable features for
-                  large-scale businesses
+                  large-scale business operations.
                 </p>
               </div>
 
@@ -219,8 +219,36 @@ const Pricing = () => {
               {/* Action Button */}
               <div className='px-6 py-4'>
                 <button className='w-full bg-blue-600 text-white text-center font-medium py-2 rounded hover:bg-blue-700 transition'>
-                  Contact Us
+                  Get Started
                 </button>
+              </div>
+              <div className='px-6 py-2'>
+                <h2 className='text-xl font-semibold text-white'>
+                  Key features
+                </h2>
+                <ul className='text-gray-300 mt-2'>
+                  <li>✅ Unlimited AI credits</li>
+                  <li>✅ Advanced AI features</li>
+                  <li>✅ Priority support</li>
+                  <li>
+                    ✅ Early access to new
+                    features
+                  </li>
+                </ul>
+              </div>
+
+              {/* Pro Plan Includes */}
+              <div className='px-6 py-2'>
+                <h2 className='text-xl font-semibold text-white'>
+                  Pro plan includes...
+                </h2>
+                <ul className='text-gray-300 mt-2'>
+                  <li>
+                    • Everything in Free plan
+                  </li>
+                  <li>• Advanced analytics</li>
+                  <li>• Premium integrations</li>
+                </ul>
               </div>
             </div>
           </div>
